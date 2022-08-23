@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@200;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+button {
+    all: unset;
+}
+
+
+
+nav,
+.content {
+    padding: 5vh 10vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.logo {
+    height: 5vh;
+}
+
+.list-items {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.item {
+    text-align: center;
+    list-style-type: none;
+    width: 10vw;
+}
+
+.brand i {
+    padding: 0vh 1vh;
+}
+
+.item {
+    font-family: "Fredoka", sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.desc {
+    flex: 2;
+}
+
+.picture {
+    flex: 1;
+    position: relative;
+}
+
+
+.desc li {
+    list-style-type: none;
+}
+
+.row-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.row-one p {
+    font-family: "poppins", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.twincircles {
+    padding: 0vh 2vh;
+    height: 5vh;
+}
+
+.heading {
+    font-family: "Fredoka One", sans-serif;
+    font-size: 60px;
+    font-weight: normal;
+    padding-top: 10px;
+}
+
+
+
+.features {
+    margin-top: 20px;
+}
+
+.feature-list {
+    padding: 0vh 5vh;
+}
+
+.plus {
+    background-color: #ff5f50;
+    padding: 8px;
+    border-radius: 50%;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1vh 0vh;
+}
+
+.feature-item p,
+.muted-text p {
+    font-family: "Poppins", sans-serif;
+}
+
+.muted-text p {
+    padding: 5vh 0vh;
+    padding-right: 12vh;
+    color: #c8c8c8;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+
+.headphone {
+    height: 50vh;
+}
+
+
+.discount {
+    position: absolute;
+    left: -10%;
+    bottom: 25%;
+    height: 120px;
+}
+
+.discount-content {
+    position: absolute;
+    left: -4%;
+    bottom: 30%;
+    font-family: "Fredoka One", sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.discount-content h4 {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.discount-content h1 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.dots {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3vh 5vh;
+}
+
+.dots .dot {
+    height: 26px;
+    width: 26px;
+    border-radius: 13px;
+    
+}
+
+.dot.yellow-dot {
+    background-color: #f7cd2e;
+}
+
+.dot.tomato-dot {
+    background-color: #ff5f50;
+}
+
+.dot.black-dot {
+    background-color: #000000;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    body {
+        width: 100vw;
+    }
+
+    nav {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    nav ul {
+        margin: 5px 0;
+    }
+
+
+    .list-items {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .item {
+        text-align: center;
+        list-style-type: none;
+        width: 20vw;
+        font-size: small;
+    }
+
+    .logo {
+        height: 3vh;
+        margin-bottom: 5px;
+    }
+
+    .content {
+        padding: 4vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+    .desc {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .muted-text{
+        width:  100vw;
+        text-align: center;
+    }
+
+    .heading {
+        font-family: "Fredoka One", sans-serif;
+        font-size: 40px;
+        font-weight: normal;
+        padding-top: 10px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .picture{   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dots .dot{
+        margin : 2vh;
+    }
+
+    .btn {
+        background-color: #ff5f50;
+        font-family: "Poppins", sans-serif;
+        color: #ffffff;
+        border-radius: 30px;
+        padding: 10px 25px;
+        font-size: 12px;
+        margin: 10px;
+        width: 30vw;
+        text-align: center;
+    }
+
+
+
+
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 786px) {
+
+    body {
+        width: 100vw;
+    }
+
+    nav {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    nav ul {
+        margin: 5px 0;
+    }
+
+    .list-items {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .item {
+        text-align: center;
+        list-style-type: none;
+        width: 20vw;
+        font-size: small;
+    }
+
+    .logo {
+        height: 3vh;
+        margin-bottom: 5px;
+    }
+
+    .btn {
+
+        background-color: #ff5f50;
+        font-family: "Poppins", sans-serif;
+        color: #ffffff;
+        border-radius: 30px;
+        padding: 6px 20px;
+        font-size: 12px;
+        margin: 5px;
+        width: 20vw;
+        text-align: center;
+    }
+
+    .picture{
+        margin-top : 10vh;
+    }
+
+    .dots + .btn {
+        margin-top: 10vh;
+    }
+
+}
+
+@media screen and (min-width: 787px) and (max-width: 1023px) {
+
+    body {
+        width: 100vw;
+    }
+
+
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .logo {
+        height: 5vh;
+    }
+
+    .list-items {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .item {
+        text-align: center;
+        list-style-type: none;
+        width: 10vw;
+    }
+
+
+    .logo {
+        height: 3vh;
+        margin-bottom: 5px;
+    }
+
+    .btn {
+
+        background-color: #ff5f50;
+        font-family: "Poppins", sans-serif;
+        color: #ffffff;
+        border-radius: 30px;
+        padding: 10px 25px;
+        font-size: 12px;
+        margin: 10px;
+        width: 20vw;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px){
+    .btn {
+
+        background-color: #ff5f50;
+        font-family: "Poppins", sans-serif;
+        color: #ffffff;
+        border-radius: 30px;
+        padding: 6px 20px;
+        font-size: 12px;
+        margin: 5px;
+        width: 10vw;
+        text-align: center;
+    }
+
+    .picture{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dots .dot{
+        margin : 10px;
+    }
+}
